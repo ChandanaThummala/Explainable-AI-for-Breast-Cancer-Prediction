@@ -1,10 +1,10 @@
-# 🧠 Predicting Breast Cancer Risks with Explainable AI
+# Predicting Breast Cancer Risks with Explainable AI
 
-## 📌 Project Overview
+## Project Overview
 
 This project applies advanced machine learning models and **Explainable AI (XAI)** techniques to predict whether breast cancer tumors are benign or malignant. The goal is to build not only a highly accurate model, but also one that offers **transparency and interpretability** — critical for clinical decision-making.
 
-## 🎯 Objectives
+## Objectives
 
 - Develop predictive models for breast cancer classification.
 - Implement a **stacking ensemble** to boost performance.
@@ -14,17 +14,17 @@ This project applies advanced machine learning models and **Explainable AI (XAI)
 
 | Feature | Description |
 |--------|-------------|
-| 🎯 **Goal** | Predict breast cancer malignancy from diagnostic data |
-| 🧪 **Dataset** | [Wisconsin Diagnostic Breast Cancer (WDBC)](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29) |
-| 🛠 **Techniques** | ML Models (SVM, RF, MLP, XGBoost, CatBoost), Ensemble Stacking |
-| 🔍 **Explainability** | SHAP, LIME, Partial Dependence Plots (PDP) |
-| 🧠 **Framework** | CRISP-DM |
-| 📊 **Evaluation** | Accuracy, Sensitivity, Specificity, Precision, F1-score, ROC-AUC |
-| 📈 **Top Accuracy** | 96.74% with stacking classifier (AUC = 0.99) |
+|  **Goal** | Predict breast cancer malignancy from diagnostic data |
+| **Dataset** | [Wisconsin Diagnostic Breast Cancer (WDBC)](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29) |
+| **Techniques** | ML Models (SVM, RF, MLP, XGBoost, CatBoost), Ensemble Stacking |
+| **Explainability** | SHAP, LIME, Partial Dependence Plots (PDP) |
+| **Framework** | CRISP-DM |
+| **Evaluation** | Accuracy, Sensitivity, Specificity, Precision, F1-score, ROC-AUC |
+| **Top Accuracy** | 96.74% with stacking classifier (AUC = 0.99) |
 ---
 
 
-## 🔧 Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |------|---------|
@@ -38,7 +38,7 @@ This project applies advanced machine learning models and **Explainable AI (XAI)
 
 ---
 
-## 🔬 Methodology Overview
+## Methodology Overview
 
 Following the **CRISP-DM** framework:
 
@@ -51,7 +51,7 @@ Following the **CRISP-DM** framework:
 
 ---
 
-## 📈 Model Performance Summary
+## Model Performance Summary
 
 | Model | Accuracy | AUC | Notes |
 |-------|----------|-----|-------|
@@ -64,7 +64,7 @@ Following the **CRISP-DM** framework:
 
 ---
 
-## 🧠 Explainable AI (XAI) Results
+## Explainable AI (XAI) Results
 
 | Technique | Highlights |
 |----------|------------|
@@ -73,7 +73,7 @@ Following the **CRISP-DM** framework:
 | `PDP` | Showed how features like `radius_mean` influence model decisions |
 
 
-## 📊 Results
+## Results
 
 - **Highest Accuracy**: Achieved using stacked model
 - **Top Features**: Identified by SHAP values
